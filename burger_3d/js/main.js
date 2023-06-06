@@ -36,7 +36,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 document.getElementById("container3D").appendChild(renderer.domElement);
 
 // Позиціонування камери
-camera.position.z = 200;
+camera.position.z = 55;
 
 // Додавання освітлення
 const topLight = new THREE.DirectionalLight(0xffffff, 1);
